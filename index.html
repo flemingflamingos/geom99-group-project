@@ -12,8 +12,31 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <!-- Xin Wen April 12-->
         <!-- Navigation Bar -->
-        <nav>
+        <div class="topnav" id="myTopnav">
+            <a class = "active" href = "index.html">Home</a>
+            <a href = "#problemstatement">Problem Definition</a>
+            <a href = "#methodology">Methodology</a>
+            <a href = "#solutions">Solutions</a>
+            <a href = "#about">About</a>
+            <a href = "javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+
+        <!--<nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#problemstatement">Problem Definition</a></li>
@@ -21,7 +44,7 @@
                 <li><a href="#solutions">Solutions</a></li>
                 <li><a href="#about">About</a></li>
             </ul>
-        </nav>
+        </nav> -->
         <!-- Banner -->
         <header>
             <img class="banner" src="img/fleming-flamingos.png" alt="Home Page Banner">
