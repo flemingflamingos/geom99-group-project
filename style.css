@@ -121,16 +121,10 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
-  .mainhead{
-    padding:0.01em 16px;
-    color:#000!important;
-    background-color:#f1f1f1!important;
-    text-align:center!important;
-  }
-  .bgimage {
+  .responsive{
+    width: 100%;
+    height:auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20px;
-    width: 40%;
   }
