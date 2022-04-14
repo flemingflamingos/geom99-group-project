@@ -44,7 +44,7 @@ footer {
 /* nav bar*/
   .topnav {
     overflow: hidden;
-    background-color: darkolivegreen;
+    background-color: rgb(1,42,74);
   }
   
   .topnav a {
@@ -60,12 +60,12 @@ footer {
   }
   
   .topnav a:hover {
-    background-color: darkseagreen;
+    background-color: rgb(169,214,229);
     color: white;
   }
   
   .topnav a.active {
-      background-color:rgb(205,164,156);
+      background-color:rgb(42,111,151);
       color: white;
   }
   
