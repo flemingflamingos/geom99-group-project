@@ -121,6 +121,13 @@ footer {
     height:auto;
   }
 
+/* Solutions Page */
+.solutions{
+  width: 75%;
+  max-width: 1920px;
+  height: auto;
+}
+
 /* About Page */
 .team-member{
   text-align: center;
