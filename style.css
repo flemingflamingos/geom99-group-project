@@ -115,3 +115,15 @@ footer {
     max-width: 100%;
     height:auto;
   }
+
+.banner{
+  width: 100%;
+  max-width: 1920px;
+  height: auto;
+}
+
+.profile-picture{
+  border-radius: 10%;
+  height: 300px;
+  width: 300px;
+}
