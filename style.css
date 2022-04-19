@@ -134,7 +134,7 @@ footer {
 .column{
   float: left;
   padding: 2%;
-  width: 33.33%;
+  width: 29.33%;
 }
 .team-member:after{
   clear: both;
