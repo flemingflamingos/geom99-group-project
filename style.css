@@ -129,6 +129,9 @@ footer {
   width: 75%;
   height: auto;
 }
+div.solutions img:hover {
+    transform: scaleX(+1);
+  }
 
 /* About Page */
 .team-member{
@@ -153,9 +156,6 @@ footer {
   width: 200px;
 }
 
-div.profile-picture img:hover {
-    transform: scaleX(+1);
-  }
 .title{
   font-style: italic;
 }
