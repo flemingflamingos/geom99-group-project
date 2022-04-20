@@ -129,9 +129,28 @@ footer {
   width: 75%;
   height: auto;
 }
-div.solutions img:hover {
+/*Terrie, April 20, 2022 - To give the images their dimensions and positions, animations and appearance*/
+div.pic {
+  margin: 5px;
+  float: center;
+  width: 75%;
+  padding: 5px;
+}
+
+div.pic:hover {
+  border: 5px solid rgb(1,42,74);
+}
+
+div.pic img {
+  width: 100%;
+  
+}
+ div.pic img:hover {
     transform: scaleX(+1);
   }
+  div.pic img {
+  border-radius: 5px;
+}
 
 /* About Page */
 .team-member{
