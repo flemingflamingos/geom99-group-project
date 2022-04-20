@@ -13,32 +13,33 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <!-- <header>
-            <img class="responsive" src="img/nobkgd_5in.png" alt="Home Page Banner" width="900" height="400">
-        </header> -->
         <!-- Xin Wen April 12-->
         <!-- Navigation Bar -->
-        <div class="topnav" id="myTopnav">
-            <a class="active" href="index.html">Home</a>
-            <a href="problemdefinition.html">Problem Definition</a>
-            <a href="methodology.html">Methodology</a>
-            <a href="solutions.html">Solutions</a>
-            <a href="about.html">About</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-            </a>
+        <nav>
+            <input id="nav-toggle" type="checkbox">
+            <div class="logo"><strong>Fleming Flamingos</strong></div>
+			<ul class="links">
+				<li><a href="#">Home</a><li>
+				<li><a href="#">Problem Definition</a><li>
+				<li><a href="#">Methodology</a><li>
+				<li><a href="#">Solutions</a><li>
+				<li><a href="#">About</a><li>
+			</ul>
+			<label for="nav-toggle" class="icon-burger">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+			</label>
+			</div>
+        </nav>
+        <!--Xin Wen April 19-->
+         <!--banner under fixed nav bar v1.0-->
+        <div class="container"> 
+            <img class="banner" src="img/banner.jpg" alt="Home Page Banner">
         </div>
-        <img class="banner" src="img/banner.jpg" alt="Home Page Banner">
-        <script>
-            function myFunction() {
-                var x = document.getElementById("myTopnav");
-                if (x.className === "topnav") {
-                    x.className += " responsive";
-                } else {
-                    x.className = "topnav";
-                }
-            }
-        </script>
+
+            
+
 
         <!--<nav>
             <ul>
