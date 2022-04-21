@@ -50,6 +50,16 @@
                 <p>All tools and applications used are further documented, giving a step-by-step guide into the whole process from conceptualization stage to completion. All achievements and other outcomes are also documented.</p>    
             </section>
             <section>
+                <h2>ArcGIS Web Map</h2>
+                <p>The main component of this project is the web map created through ArcGIS Online, which is the basis of the other web solutions. After downloading the Development Applications dataset (.csv) and the city boundary (.shp) from the City of Toronto Open Data Portal, the data was added to the ArcGIS Online and published as hosted feature layers. The hosted feature layers were then added to the web map, and several features have been configured in order to visualize the locations of development activity.</p>
+                <p>• <b>Base map</b> is set to Topographic to emphasize the locations of the development activity while showing the context such as neighbourhood and street names.</p>
+                <p>• <b>Legend</b> is displayed to help the users to understand the symbology of the application type, the number of features, and the city boundary.</p>
+                <p>• <b>Symbology</b> is set for both the development application and the city boundary. A color palette with low transparency is used to visualize different development application types, and a dark grey solid line is used to visualize the city boundary.</p>
+                <p>• <b>Pop-ups</b> are configured to show descriptive information about the individual applications effectively. Instead of using the original table showing all fields, the field attributes are utilized and only related information will be organized and displayed in the pop-ups.</p>
+                <p>• <b>Clustering</b> is an effective way to visualize high number of point features. The clustering radius is set to the maximum to minimize the number of clusters in the map. The size range of the clustering is set from 10% to 50% depends on the number of applications. Labels are added to display the number of applications in the area. Pop-ups are also configured to display the number of application and the most common application type in the area. The size of the cluster is based on the number of applications in the area, and the color of the cluster is based on the most common application type in the area.</p>
+                <img class="solutions" src="img/methodology-webmap.jpg" alt="ArcGIS Web Map">
+            </section>
+            <section>
                 <h2>ArcGIS Dashboards</h2>
                 <p>To create an interactive dashboard and convey useful statistics to the users efficiently, several elements were utilized besides the embedded web map.</p>
                 <p>• <b>Indicator</b> displays the count of the applications in Toronto, or the count of the specific application type in the current map extent.</p>
@@ -58,6 +68,9 @@
                 <p>• <b>Selector (Single)</b> in the header allows the users to select the specific application based on the application number or the reference file number. Once the application is selected, the users can zoom the map to the corresponding application location, and the corresponding pop-up will be displayed automatically as well.</p>
                 <p>• <b>Selector (Multiple)</b> in the collapsed sidebar allows the users to filter the applications based on the submission date range, postal code, application status, or application type. Only the applications that satisfy the search criteria will be displayed on the map.</p>
                 <img class="solutions" src="img/methodology-dashboard.jpg" alt="ArcGIS Dashboards">
+            </section>
+            <section>
+                <h2>ArcGIS Experience Builder</h2>
             </section>
             <section>
                 <h2>ArcGIS StoryMaps</h2>
