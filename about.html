@@ -14,28 +14,30 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <!-- Xin Wen April 12-->
         <!-- Navigation Bar -->
-        <div class="topnav" id="myTopnav">
-            <a href="index.html">Home</a>
-            <a href="problemdefinition.html">Problem Definition</a>
-            <a href="methodology.html">Methodology</a>
-            <a href="solutions.html">Solutions</a>
-            <a class="active" href = "about.html">About</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-            </a>
+        <nav>
+            <input id="nav-toggle" type="checkbox">
+            <div class="logo"><strong>Fleming Flamingos</strong></div>
+			<ul class="links">
+				<li><a href="index.html">Home</a><li>
+				<li><a href="problemdefinition.html">Problem Definition</a><li>
+				<li><a href="methodology.html">Methodology</a><li>
+				<li><a href="solutions.html">Solutions</a><li>
+				<li><a href="about.html">About</a><li>
+			</ul>
+			<label for="nav-toggle" class="icon-burger">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+			</label>
+			</div>
+        </nav>
+        <!--Xin Wen April 19-->
+         <!--banner under fixed nav bar v1.0-->
+        <div class="container"> 
+            <img class="banner" src="img/banner.jpg" alt="Home Page Banner">
         </div>
-        <img class="banner" src="img/banner.jpg" alt="Home Page Banner">
-        <script>
-            function myFunction() {
-                var x = document.getElementById("myTopnav");
-                if (x.className === "topnav") {
-                    x.className += " responsive";
-                } else {
-                    x.className = "topnav";
-                }
-            }
-        </script>
 
         <!-- Main Content -->
         <!-- Tags: h1, h2, p -->
@@ -54,9 +56,9 @@
                 </div>
                 <div class="column">
                     <p class="name">Xin Wen</p>
-                    <img class="profile-picture" src="img/salad-cat.jpg" alt="Profile Picture">
+                    <img class="profile-picture" src="img/Xin.jpg" alt="Profile Picture">
                     <p class="title">Cartographic Specialist</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Xin graduated from the University of Toronto in 2021, with a Bachelor of Arts (Honours) in Human Geography, with minor in GIS and City Studies. She has extensive experience in GIS and has been using GIS software for 5 years. She is passionate about geography and sees her future carrer in GIS industry. She has over 2 years of customer service experience and has previously worked in the telecommunication industry and the beauty industry. She is currently pursuing a Post Graduate Certificate in Geographic Information System Cartographic Specialist at Fleming College. </p>
                 </div>
                 <div class="column">
                     <p class="name">Peggy Wong</p>
