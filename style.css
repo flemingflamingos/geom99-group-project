@@ -17,7 +17,10 @@ html, body {
   height: auto;
 }
 main{
-    padding: 150px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 section{
     padding-bottom: 20px;
@@ -258,7 +261,7 @@ nav .icon-burger .line {
 	transition: all .3s ease-in-out;
 }
 	
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
 	nav .logo {
 		float: none;
 		width: auto;

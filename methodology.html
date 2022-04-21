@@ -46,11 +46,9 @@
                   Terrie April 19, 2022-->
             <section>
                 <h1>Methodology</h1>
-                <p>After retrieving the development applications data from the City of Toronto Open Data Portal, the coordinates were transformed from the original MTM zone 10 projection to UTM zone 17N ground coordinates, using the X Y Table to Point geoprocessing tool in ArcGIS Pro. From this geocoded data, the applications were symbolised according to application type and the layers published to ArcGIS online (AGOL) to create a web map. This web map was the base from which the Dashboard and Experience Builder were created.</p>
-                <p>The dashboard displays the statistical trends of the development applications, and the Experience Builder enhances the cartographic visualisation to give the user a more interactive experience. A story map was also created to show the development application process, so the user can better understand the statistics and other information illustrated by these tools and applications.</p>
-                <p>All tools and applications used are further documented, giving a step-by-step guide into the whole process from conceptualization stage to completion. All achievements and other outcomes are also documented.</p>    
-            </section>
-            <section>
+                <p>In order to visualize the development activiites in the City of Toronto, ArcGIS Web Map, ArcGIS Dashboards, ArcGIS Experience Builder, and ArcGIS StoryMaps are ultilized.</p>
+                <h2>Data Pre-Processing</h2>
+                <p>The Development Applications dataset (.csv) and the city boundary (.shp) can be downloaded from the City of Toronto Open Data Portal. As the development application dataset has the X and Y coordinates in MTM projection, it was converted to latitude and longitude using the XY Table to Point tool in ArcGIS Pro. After creating the point features for the development application, the data was published to ArcGIS Online as hosted feature layers.</p>
                 <h2>ArcGIS Web Map</h2>
                 <p>The main component of this project is the web map created through ArcGIS Online, which is the basis of the other web solutions. After downloading the Development Applications dataset (.csv) and the city boundary (.shp) from the City of Toronto Open Data Portal, the data was added to the ArcGIS Online and published as hosted feature layers. The hosted feature layers were then added to the web map, and several features have been configured in order to visualize the locations of development activity.</p>
                 <p>• <b>Base map</b> is set to Topographic to emphasize the locations of the development activity while showing the context such as neighbourhood and street names.</p>
@@ -59,8 +57,6 @@
                 <p>• <b>Pop-ups</b> are configured to show descriptive information about the individual applications effectively. Instead of using the original table showing all fields, the field attributes are utilized and only related information will be organized and displayed in the pop-ups.</p>
                 <p>• <b>Clustering</b> is an effective way to visualize high number of point features. The clustering radius is set to the maximum to minimize the number of clusters in the map. The size range of the clustering is set from 10% to 50% depends on the number of applications. Labels are added to display the number of applications in the area. Pop-ups are also configured to display the number of application and the most common application type in the area. The size of the cluster is based on the number of applications in the area, and the color of the cluster is based on the most common application type in the area.</p>
                 <img class="solutions" src="img/methodology-webmap.jpg" alt="ArcGIS Web Map">
-            </section>
-            <section>
                 <h2>ArcGIS Dashboards</h2>
                 <p>To create an interactive dashboard and convey useful statistics to the users efficiently, several elements were utilized besides the embedded web map.</p>
                 <p>• <b>Indicator</b> displays the count of the applications in Toronto, or the count of the specific application type in the current map extent.</p>
@@ -70,11 +66,7 @@
                 <p>• <b>Selector (Multiple)</b> in the collapsed sidebar allows the users to filter the applications based on the submission date range, postal code, application status, or application type. Only the applications that satisfy the search criteria will be displayed on the map.</p>
                 <p>All actions should be set only after all elements have been added to the dashboard, as the newly added elements will not be affected by the actions set previously.</p>
                 <img class="solutions" src="img/methodology-dashboard.jpg" alt="ArcGIS Dashboards">
-            </section>
-            <section>
                 <h2>ArcGIS Experience Builder</h2>
-            </section>
-            <section>
                 <h2>ArcGIS StoryMaps</h2>
                 <p>To tell a remarkable story about the development activities in Toronto, the ArcGIS StoryMaps is used. The main goal of the story map is to educate the public by providing background information about the map. The web map and the dashboard are embedded within the story map, so that the users can explore the development activities interactively within the story map. The unique elements of the story map include: </p>
                 <p>• <b>Navigation Bar</b> is pinned at the top of the story map, allowing the users to jump between different sections and obtain the information they want in a second.</p>
