@@ -166,6 +166,11 @@ div.pic img {
   content: "";
   display: table;
 }
+@media screen and (max-width: 1200px) {
+  .column {
+    width: 100%;
+  }
+}
 .name{
   font-weight: bold;
 }
