@@ -17,10 +17,10 @@ html, body {
   height: auto;
 }
 main{
-    padding-top: 75px;
-    padding-bottom: 75px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 section{
     padding-bottom: 20px;
