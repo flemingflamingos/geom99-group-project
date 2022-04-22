@@ -251,6 +251,7 @@ nav .icon-burger {
 	transform: translateY(-50%);
 }
 
+
 nav .icon-burger .line {
 	width: 30px;
 	height: 5px;
@@ -258,6 +259,7 @@ nav .icon-burger .line {
 	margin: 5px;
 	border-radius: 3px;
 	transition: all .3s ease-in-out;
+  display: block;
 }
 	
 @media screen and (max-width: 1200px) {
